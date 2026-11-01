@@ -1,0 +1,36 @@
+[
+    {
+        "query": "What is style transfer?",
+        "rag_type": "fusion_rag",
+        "answer": "Style transfer is...",
+        "total_time": 0.56
+    },
+    {
+        "query": "What is style transfer?",
+        "rag_type": "fusion_rag",
+        "answer": "Style transfer is...",
+        "total_time": 0.56
+    },
+    {
+        "query": "What is teh archeitecture of style transfer?",
+        "rag_type": "graph_rag",
+        "answer": "I could not find relevant information.",
+        "metrics": {
+            "retrieval_time": 0.02,
+            "generation_time": 0.15,
+            "total_time": 0.35
+        },
+        "timestamp": "6/5/2026, 12:38:05 AM"
+    },
+    {
+        "query": "What do you understand by style transfer?",
+        "rag_type": "naive_rag",
+        "answer": "Style transfer is a computer vision technique that allows the recomposition of the content of an image in the style of another. It takes two images - a content image and a style reference image - and blends them together, resulting in an output image that retains the core elements of the content image but appears to be \"painted\" in the style of the style reference image.",
+        "metrics": {
+            "retrieval_time": 0.01,
+            "generation_time": 0.32,
+            "total_time": 0.33
+        },
+        "timestamp": "6/5/2026, 11:34:36 PM"
+    }
+]
